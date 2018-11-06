@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <main>
-        <h1>Solid LDflex playground</h1>
-      </main>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Header/>
+      <Footer/>
+    </div>
+  );
 }
-
-export default App;
